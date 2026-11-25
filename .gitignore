@@ -1,0 +1,29 @@
+# Dependencies & Virtual Environments
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Next.js build output
+frontend/.next/
+frontend/out/
+
+# Environment secrets
+.env
+.env.local
+.env.*.local
+frontend/.env.local
+backend/.env
+
+# Dataset besar (jangan di-push ke GitHub)
+*.zip
+data/
+.ipynb_checkpoints/
+
+# Vercel & OS
+.vercel
+.DS_Store
+Thumbs.db
+*.log
+

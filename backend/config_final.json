@@ -1,0 +1,36 @@
+{
+  "best_cfg": {
+    "mad_max": 4.5,
+    "exact_min": 0.65,
+    "ncc_raw_min": 0.92,
+    "min_nw_pixels": 30,
+    "ignore_top_header": true,
+    "ignore_same_line_close": false,
+    "ct_z_min": 12.0,
+    "ct_diff_min": 10.0,
+    "ct_min_chars": 2,
+    "use_nfa": false,
+    "nfa_max": 0.001
+  },
+  "val_metrics": {
+    "TP": 15,
+    "FP": 0,
+    "FN": 18,
+    "TN": 159,
+    "Precision": 1.0,
+    "Recall": 0.4545,
+    "F1": 0.625,
+    "Accuracy": 0.9062
+  },
+  "test_metrics": {
+    "TP": 23,
+    "FP": 1,
+    "FN": 12,
+    "TN": 182,
+    "Precision": 0.9583,
+    "Recall": 0.6571,
+    "F1": 0.7797,
+    "Accuracy": 0.9404
+  }
+}
+
