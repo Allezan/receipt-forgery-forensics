@@ -26,6 +26,7 @@ app = FastAPI(
     title="Receipt Forgery Forensics API",
     description="Classical OpenCV 8-stage receipt image forensics API (no deep learning / YOLO).",
     version="1.0.0",
+    redirect_slashes=False,
 )
 
 allowed_origins_env = os.getenv("ALLOWED_ORIGINS", "*").strip()
